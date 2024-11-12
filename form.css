@@ -37,9 +37,27 @@ form [type="email"],form [type="password"]  {
 
 a {
     color: grey;
-    display: block;
+    display: inline-block;
     text-decoration: none;
 
+}
+.icon a {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ec4025;
+    text-align: center;
+    place-content: center;
+    border-radius: 100%;
+    transition: 1s;
+    color: white;
+    box-shadow: 0 3px 5px rgb(107, 37, 5) ;
+}
+
+.icon a:hover {
+    background-color: aquamarine;
+    transform: translateY(-10px);
+    
 }
 form [type="submit"] {
     background-color: #eb3349;
@@ -49,4 +67,5 @@ form [type="submit"] {
     border-radius: 30px;
     color: white;
     font-size: 15px;
+    box-shadow: 0 3px 5px rgb(107, 37, 5) ;
 }
